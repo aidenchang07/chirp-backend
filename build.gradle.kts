@@ -12,4 +12,10 @@ version = "0.0.1-SNAPSHOT"
 subprojects {
     group = rootProject.group
     version = rootProject.version
+
+    repositories {
+        mavenCentral()
+        maven { url = uri("https://repo.spring.io/milestone") }
+        maven { url = uri("https://repo.spring.io/snapshot") }
+    }
 }
