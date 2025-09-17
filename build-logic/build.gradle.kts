@@ -6,7 +6,6 @@ repositories {
     gradlePluginPortal()
     mavenCentral()
     maven { url = uri("https://repo.spring.io/milestone") }
-    maven { url = uri("https://repo.spring.io/snapshot") } // todo: 我是用M2，可以拿掉
 }
 
 dependencies {
